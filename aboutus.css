@@ -79,16 +79,12 @@ section {
     animation: fadeIn 1.5s ease-in-out;
 }
 
-.hero button {
+.hero a {
   color: #fff;
   border: none;
   cursor: pointer;
   margin-top: 20px;
   margin-left: 10%;
-
-
-
-
   padding: 15px 50px;
   border-radius: 5px;
   background-color: #26262a;
@@ -97,12 +93,13 @@ section {
   animation: fadeIn 1.5s ease-in-out;
 }
 
-.hero button:hover {
+.hero a:hover {
   background-color: #555;
   transform: translateY(-5px) scale(1.05);
 }
 
-.hero button {
+.hero a,
+.hero button{
   background-image: linear-gradient(to right, #B380FF, #7AF0FF);
   background-size: 100% 100%;
   border: none;
@@ -114,6 +111,7 @@ section {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.hero a:hover,
 .hero button:hover {
   transition: background-image 0.3s ease-in-out, transform 0.2s ease-in-out;
   background-image: linear-gradient(to right, #ffcc00, #ff9900);
@@ -654,3 +652,10 @@ section {
 input {
   color: #fff;
 }
+.hero-section a, .hero button{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+
+}
+
