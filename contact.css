@@ -45,7 +45,7 @@ section {
 
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../src/login-hero.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./src/login-hero.jpg') no-repeat center center;
   background-size: cover;
   height: 70vh;
   align-items: center;
@@ -236,7 +236,7 @@ padding: 10%;
 }
 
 .two-text-section-section-back {
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(',./src/news-two-section-back.jpg') no-repeat center/cover fixed;
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./src/news-two-section-back.jpg') no-repeat center/cover fixed;
 padding: 10%;
 }
 
@@ -262,7 +262,7 @@ gap: 20px;
 }
 
 .two-text-section-section-two {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../src/manage.png') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./src/manage.png') no-repeat center center;
 padding: 10%;
 }
 
@@ -297,7 +297,7 @@ margin: 10%;
 }
 
 .sciences-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../src/news-science-back.jpg') no-repeat center/cover fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./src/news-science-back.jpg') no-repeat center/cover fixed;
 }
 
 .sciences-margin {
@@ -483,7 +483,7 @@ padding: 20px;
 
 .hero-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../src/marketing-hero.jpg") no-repeat center center;
+    url("./src/marketing-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 70vh;
   align-items: center;

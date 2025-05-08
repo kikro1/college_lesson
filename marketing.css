@@ -252,7 +252,7 @@ html {
 }
 
 .two-text-section-section-two {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../src/manage.png') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./src/manage.png') no-repeat center center;
   padding: 10%;
 }
 
@@ -287,7 +287,7 @@ html {
 }
 
 .sciences-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../src/science-back.jpg') no-repeat center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./src/science-back.jpg') no-repeat center/cover fixed;
 }
 
 .sciences-margin {
@@ -434,7 +434,7 @@ html {
   
   .hero-contact {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("../src/marketing-hero.jpg") no-repeat center center;
+      url("./src/marketing-hero.jpg") no-repeat center center;
     background-size: cover;
     height: 70vh;
     align-items: center;
